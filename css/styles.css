@@ -1,0 +1,6 @@
+/* nastavenie sirky menu pre vacsie displeje */
+@media screen and (min-width: 992px) {
+  #sidebar-nav .list-group-item {
+    min-width: 200px;
+  }
+}
