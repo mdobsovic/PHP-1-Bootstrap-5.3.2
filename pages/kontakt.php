@@ -42,8 +42,7 @@
 
     <div class="mb-3">
         <label for="priloha" class="form-label">Prílohy</label>
-        <input class="form-control" type="file" id="priloha" name="priloha[]"
-            accept="image/jpeg,image/png,application/pdf" multiple>
+        <input class="form-control" type="file" id="priloha" name="priloha[]" accept="image/jpeg,image/png,application/pdf" multiple>
         <div class="form-text">
             Iba súbory typu JPG, PNG a PDF!
         </div>
@@ -104,8 +103,7 @@
 
     <div class="mb-3">
         <label for="zoznam" class="form-label me-3">Obľúbené ovocie:</label>
-        <input type="text" list="datalistMoznosti" class="form-control" id="zoznam" name="zoznam"
-            placeholder="Začnite písať...">
+        <input type="text" list="datalistMoznosti" class="form-control" id="zoznam" name="zoznam" placeholder="Začnite písať...">
         <datalist id="datalistMoznosti">
             <option value="jablko">
             <option value="hruška">
